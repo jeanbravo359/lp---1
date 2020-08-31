@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a> 
+        <nav>
+            <ul>
+                <li><a href="app/Result.html"><input class="search" placeholder="Search" type="text" name="search"autocomplete off></a></li>
+                <li><a href="app/Offers.html">Offers</a></li>
+                <li><a href="#">Shops</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">login</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <div class="space"></div>
+    <script type="text/javascript">window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY>0);
+    })</script>
+    <div class="container">
+        <div class="card">
+            <img src="app/images/food-1.jpg" width="300px">
+            <h4>Comida 1</h4>
+            <p>Nombre</p>
+            <p>precio1</p>
+            <a href="#">Ver Producto</a>
+        </div>
+        <div class="card">
+            <img src="app/images/food-2.jpg" width="300px">
+            <h4>Comida 2</h4>
+            <p>Nombre</p>
+            <p>precio2</p>
+            <a href="#">Ver Producto</a>
+        </div>
+        <div class="card">
+            <img src="app/images/food-3.jpg" width="300px">
+            <h4>Comida 3</h4>
+            <p>Nombre</p>
+            <p>precio3</p>
+            <a href="#">Ver Producto</a>
+        </div>
+        
+    </div>
+
+</body>
+</html>
